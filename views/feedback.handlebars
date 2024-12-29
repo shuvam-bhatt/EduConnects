@@ -1,0 +1,12 @@
+<h2>Feedback</h2>
+<ul>
+  {{#each feedbacks}}
+    <li>{{this.name}}: {{this.feedback}} ({{this.rating}} stars)</li>
+  {{/each}}
+</ul>
+<form action="/feedback" method="POST">
+  <input type="text" name="name" placeholder="Your Name" required>
+  <textarea name="feedback" placeholder="Your Feedback" required></textarea>
+  <input type="number" name="rating" placeholder="Rating (1-5)" required>
+  <button type="submit">Submit</button>
+</form>

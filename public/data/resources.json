@@ -1,0 +1,28 @@
+[
+    {
+      "subject": "Physics",
+      "resources": [
+        {
+          "type": "video",
+          "title": "Quantum Mechanics Explained",
+          "url": "path/to/video.mp4"
+        },
+        {
+          "type": "article",
+          "title": "Laws of Motion Simplified",
+          "url": "path/to/article.pdf"
+        }
+      ]
+    },
+    {
+      "subject": "Maths",
+      "resources": [
+        {
+          "type": "video",
+          "title": "Calculus for Beginners",
+          "url": "path/to/video.mp4"
+        }
+      ]
+    }
+  ]
+  

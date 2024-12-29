@@ -1,0 +1,9 @@
+<h2>Lectures</h2>
+<ul>
+  {{#each lectures}}
+    <li>
+      {{this.title}} - {{this.duration}} 
+      <a href="{{this.url}}" target="_blank">Watch</a>
+    </li>
+  {{/each}}
+</ul>
