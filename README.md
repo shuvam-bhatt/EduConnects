@@ -92,6 +92,6 @@ PORT=4000
 
 - Integration with external APIs for learning resources.
 
-Real-time chat support and notifications.
+- Real-time chat support and notifications.
 
 
